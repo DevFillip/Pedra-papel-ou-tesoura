@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-align{
+    display: flex;
+
+}
+
+.player-options h3{
+    text-align: justify;
+    max-width: 200px;
+}
+.enemy-options img, .player-options img{
+    max-width: 190px;
+    margin-left: 10px;
+    opacity: 0.4;
+}
+
+.enemy-options, .player-options{
+      width: 50%;
+}
+
+.vencedor {
+    text-align: center;
+}
