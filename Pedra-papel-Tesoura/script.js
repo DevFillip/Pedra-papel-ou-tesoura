@@ -10,7 +10,9 @@ function validarVitoria(){
     if(playeropt == "papel"){
 
         if(inimigoOpt == "papel"){
-            vencedor.innerHTML = "Empate!"
+           
+            vencedor.innerHTML = "Empate!"; 
+
         }else if(inimigoOpt == "tesoura"){
             vencedor.innerHTML = "Você perdeu! F no chat :("
         }else if(inimigoOpt == "pedra"){
